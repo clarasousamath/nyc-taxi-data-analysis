@@ -258,3 +258,8 @@ O projeto acompanha diferentes indicadores para analisar o desempenho **operacio
 * Identificação de registros potencialmente anômalos
 
 Esses indicadores são utilizados para avaliar o comportamento das corridas, compreender os padrões de demanda e receita e identificar possíveis problemas que possam impactar a confiabilidade das análises.
+
+
+## Análise de consistência temporal
+
+Foram identificados 12 registros com datas fora do período de referência da análise. Os registros foram investigados individualmente para avaliar se representam inconsistências de origem ou viagens iniciadas no final do período e concluídas posteriormente. A decisão de tratamento foi baseada no contexto de cada registro, evitando a remoção automática dos dados.
