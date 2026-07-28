@@ -1,5 +1,5 @@
 -- ==========================================
--- 07 - Window Functions
+-- 06 - Window Functions
 -- Projeto: NYC Taxi Data Analysis
 -- ==========================================
 
