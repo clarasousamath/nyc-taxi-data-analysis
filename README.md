@@ -39,6 +39,8 @@ A partir dessas análises, o projeto busca transformar dados brutos em **insight
 
 O projeto utiliza dados de corridas de táxi de Nova York referentes ao período de **abril de 2026**.
 
+- **Fonte dos dados:** https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
 A base de dados contém:
 
 * **3.831.240 registros**
