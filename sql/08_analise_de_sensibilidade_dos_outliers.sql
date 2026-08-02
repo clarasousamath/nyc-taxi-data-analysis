@@ -130,11 +130,11 @@ SELECT
 
     COUNT(*) FILTER (
         WHERE
-            trip_distance <= 100
+            "trip_distance" <= 100
             AND EXTRACT(
                 EPOCH FROM (
-                    tpep_dropoff_datetime
-                    - tpep_pickup_datetime
+                    "tpep_dropoff_datetime"
+                    - "tpep_pickup_datetime"
                 )
             ) / 60 <= 180
     ) AS registros_sem_outliers,
@@ -144,15 +144,16 @@ SELECT
             100.0 *
             COUNT(*) FILTER (
                 WHERE
-                    trip_distance <= 100
+                    "trip_distance" <= 100
                     AND EXTRACT(
                         EPOCH FROM (
-                            tpep_dropoff_datetime
-                            - tpep_pickup_datetime
+                            "tpep_dropoff_datetime"
+                            - "tpep_pickup_datetime"
                         )
                     ) / 60 <= 180
             )
             / COUNT(*)
         )::numeric,
         2
-    ) AS percentual_registros_mantidos;
+    ) AS percentual_registros_mantidos
+FROM taxi_trips;
