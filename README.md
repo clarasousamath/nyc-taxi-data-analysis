@@ -102,6 +102,23 @@ Utilizado principalmente para:
 
 Utilizado para a construção da camada de visualização e apresentação dos principais indicadores e insights obtidos a partir das análises.
 
+Visão Geral
+<img width="1197" height="747" alt="image" src="https://github.com/user-attachments/assets/8e426d57-75ad-48b3-a07b-85f8502815d4" />
+
+Demanda
+<img width="1197" height="752" alt="image" src="https://github.com/user-attachments/assets/4dfca728-b9cd-41c0-884e-699baa7cc1ed" />
+
+Distância e Valor
+<img width="1196" height="743" alt="image" src="https://github.com/user-attachments/assets/f83208c9-a880-4183-b2a2-9658c3fb35b8" />
+
+O relatório apresenta três páginas:
+
+| Página | Análises |
+|---|---|
+| Visão geral | Total de corridas, valor cobrado positivo, ticket positivo, evolução diária e Top 10 zonas de embarque. |
+| Demanda | Faixas de quatro horas, média diária por dia da semana, volume por borough e evolução diária. |
+| Distância e valor | Valor médio e volume por distância registrada; gorjetas registradas; velocidade agregada; comparação da distância média com e sem recorte operacional.
+
 
 ## 🔎 Etapas do Projeto
 
