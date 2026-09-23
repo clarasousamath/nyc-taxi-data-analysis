@@ -102,6 +102,13 @@ Utilizado principalmente para:
 
 Utilizado para a construção da camada de visualização e apresentação dos principais indicadores e insights obtidos a partir das análises.
 
+## 📊 Download do dashboard
+
+[Baixar o dashboard em Power BI (.pbix)](https://github.com/clarasousamath/nyc-taxi-data-analysis/releases/tag/v1-0)
+
+Na página da release, abra a seção **Assets** e clique no arquivo `.pbix`.
+Para explorar o relatório, utilize o Power BI Desktop.
+
 Visão Geral
 <img width="1197" height="747" alt="image" src="https://github.com/user-attachments/assets/8e426d57-75ad-48b3-a07b-85f8502815d4" />
 
